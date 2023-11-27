@@ -7,7 +7,7 @@ const BatchDetails = () => {
         <div className='w-10/12 mx-auto mb-20'>
             <div className='grid grid-cols-1 md:grid-cols-4 gap-10'>
 
-            <div className="card bg-orange-50 shadow-2xl">
+            <div className="card bg-white shadow-xl">
             <figure className="px-10 pt-10">
                 <img   src={img1} alt="Shoes" className="rounded-xl h-24" />
             </figure>
@@ -18,35 +18,35 @@ const BatchDetails = () => {
             </div>
             </div>
 
-            <div className="card bg-orange-50 shadow-2xl">
+            <div className="card bg-white shadow-xl">
             <figure className="px-10 pt-10">
                 <img   src={img2} alt="Shoes" className="rounded-xl h-24" />
             </figure>
             <div className="card-body items-center text-center">
-                <h2 className="card-title text-2xl font-bold text-orange-500">40000+ Student</h2>
-                <p className='text-xl font-extrabold text-slate-600'>Aleady Trained</p>
+                <h2 className="card-title text-2xl font-bold text-orange-500">19+ Batch</h2>
+                <p className='text-xl font-extrabold text-slate-600'>Already Launched</p>
                 
             </div>
             </div>
 
-            <div className="card bg-orange-50 shadow-2xl">
+            <div className="card bg-white shadow-xl">
             <figure className="px-10 pt-10">
                 <img   src={img3} alt="Shoes" className="rounded-xl h-24" />
             </figure>
             <div className="card-body items-center text-center">
-                <h2 className="card-title text-2xl font-bold text-orange-500">40000+ Student</h2>
-                <p className='text-xl font-extrabold text-slate-600'>Aleady Trained</p>
+                <h2 className="card-title text-2xl font-bold text-orange-500">90% + Success</h2>
+                <p className='text-xl font-extrabold text-slate-600'>Within the Course</p>
                 
             </div>
             </div>
 
-            <div className="card bg-orange-50 shadow-2xl">
+            <div className="card bg-white shadow-xl">
             <figure className="px-10 pt-10">
                 <img   src={img4} alt="Shoes" className="rounded-xl h-24 hover:scale-[1.09] duration-500" />
             </figure>
             <div className="card-body items-center text-center">
                 <h2 className="card-title text-2xl font-bold text-orange-500">40000+ Student</h2>
-                <p className='text-xl font-extrabold text-slate-600'>Aleady Trained</p>
+                <p className='text-xl font-extrabold text-slate-600'>Youtube Students</p>
                 
             </div>
             </div>
