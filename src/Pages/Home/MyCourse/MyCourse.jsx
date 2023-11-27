@@ -1,7 +1,7 @@
 
 const MyCourse = () => {
     return (
-        <div className="w-10/12 mx-auto shadow-2xl">
+        <div className="w-10/12 mx-auto ">
             <h1 className="text-center text-4xl md:text-8xl font-bold uppercase p-10">Our Courses</h1>
             <section className="dark:bg-gray-800 dark:text-gray-100">
 	<div className="container flex flex-col-reverse mx-auto lg:flex-row">
