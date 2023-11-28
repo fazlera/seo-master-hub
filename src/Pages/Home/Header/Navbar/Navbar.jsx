@@ -12,7 +12,7 @@ const Navbar = () => {
             <li><NavLink to={'/'}>HOME</NavLink></li>
             <li><NavLink to={'/seo'}>SEO</NavLink></li>
             <li><NavLink to={'/course'}>COURSE MODULE</NavLink></li>
-            <li><NavLink to={'/SYLLABUS'}>SEO COURSE SYLLABUS</NavLink></li>
+            <li><NavLink to={'/syllabus'}>SEO COURSE SYLLABUS</NavLink></li>
             <li><NavLink to={'/complete'}>COMPLETE SEO</NavLink></li>
             <li><NavLink to={'/wordpress'}>WORDPRESS</NavLink></li>
             <li><NavLink to={'/blog'}>SEO BLOG</NavLink></li>
