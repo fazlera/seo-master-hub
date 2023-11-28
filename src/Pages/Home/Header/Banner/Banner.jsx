@@ -6,10 +6,15 @@ import './Banner.css';
 import { Autoplay, Pagination, Navigation, EffectFade, } from 'swiper/modules';
 
 import img1 from '../../../../assets/images/hridoy/hridoy.png'
-// import img2 from '../../../../assets/images/hridoy/seoslide2.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 const Banner = () => {
+  useEffect(()=>{
+    AOS.init({duration:500,delay:1000})
+  },[])
    
     return (
       <>
@@ -38,7 +43,18 @@ const Banner = () => {
         <div className='w-10/12 mx-auto'>
         <div className='flex items-center justify-center flex-col md:flex-row'>
 
-        <div className='md:w-1/2 ml-10'>
+        <div className='md:w-1/2 ml-10' 
+
+        data-aos="fade-right" 
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        
+        >
         <h1 className='sm:text-xl md:text-5xl font-bold py-10 text-left'>Complete Advance SEO Course with <span className='text-orange-600 font-extrabold p-2 md:text-5xl'>Hridoy Chowdhury</span></h1>
 
         <h4 className='text-left flex-wrap'>একদম জিরো থেকে, কোন প্রকার পূর্ব অভিজ্ঞতা ছাড়াই একজন প্রফেশনাল এস ই ও (SEO Expert) হওয়ার জন্য যা যা লাগবে তার সবকিছুই সহজ করে বুঝিয়ে এবং শিখিয়ে দেওয়া হবে এই কোর্সে। ক্লাইন্ট রিয়েল কাজ দেখে বুঝে প্র্যাক্টিক্যাল হিসেবে নিজেই করতে পারবেন।</h4>
@@ -50,7 +66,12 @@ const Banner = () => {
         </div>
 
           <div  className='md:w-1/2'>
-             <div className=''>
+             <div className='' 
+             data-aos="fade-left" 
+             data-aos-offset="200"
+             data-aos-delay="50"
+             data-aos-duration="1000"
+             >
              <img style={{ width: '600px', height: 'auto' }} src={img1} alt="" />
              </div>
           </div>
@@ -75,7 +96,13 @@ const Banner = () => {
         
         <div className='w-10/12 mx-auto'>
         <div className='flex items-center justify-center flex-col md:flex-row'>
-          <div className='md:w-1/2 ml-10'>
+          <div className='md:w-1/2 ml-10'
+          data-aos="fade-right" 
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          
+          >
         <h1 className='sm:text-xl md:text-5xl font-bold py-10 text-left'>We will always be there for you <span className='text-orange-600 font-extrabold p-2 md:text-5xl'>Hridoy Chowdhury</span></h1>
        
 
@@ -87,7 +114,13 @@ const Banner = () => {
           </div>
 
           <div  className='md:w-1/2'>
-             <div className=''>
+             <div className=''
+             data-aos="fade-left" 
+             data-aos-offset="200"
+             data-aos-delay="50"
+             data-aos-duration="1000"
+             
+             >
              <img style={{ width: '600px', height: 'auto' }} src={img1} alt="" />
              </div>
           </div>
@@ -106,7 +139,13 @@ const Banner = () => {
         
         <div className='w-10/12 mx-auto'>
         <div className='flex items-center justify-center flex-col md:flex-row'>
-          <div className='md:w-1/2 ml-10'>
+          <div className='md:w-1/2 ml-10'
+          data-aos="fade-right" 
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          
+          >
         <h1 className='sm:text-xl md:text-5xl font-bold py-10 text-left'>Start your dream today. Conquer the world <span className='text-orange-600 font-extrabold p-2 md:text-5xl'>Hridoy Chowdhury</span></h1>
 
         <h4 className='text-left flex-wrap'>সো, এক্ষুণি কোর্সে এনরোল করে ঝাঁপিয়ে পড়ো। তোমার লাইফের নতুন মিশন। হার্ডওয়ার্ক করবে তুমি। গাইডলাইন আর সাপোর্ট দিবো আমরা। ইনশাআল্লাহ, তুমি পারবে। বী কনফিডেন্ট ম্যান।</h4>
@@ -116,7 +155,13 @@ const Banner = () => {
         </div>
           </div>
 
-          <div  className='md:w-1/2'>
+          <div  className='md:w-1/2'
+          
+            data-aos="fade-left" 
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            >
              <div className=''>
              <img style={{ width: '600px', height: 'auto' }} src={img1} alt="" />
              </div>

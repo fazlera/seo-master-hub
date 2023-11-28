@@ -1,11 +1,31 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 const StudentFeedback = () => {
+    useEffect(()=>{
+        AOS.init({duration:500,delay:1000})
+    },[])
+   
     return (
         <div className="w-10/12 mx-auto py-20">
             <h1 className="text-2xl md:text-6xl text-center font-bold p-10 text-green-700">স্টুডেন্টদের কোর্স সম্পর্কে মতামত</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10"
+            
+          
+            >
 
-            <div className="flex flex-col p-6 space-y-6 overflow-hidden rounded-lg shadow-lg dark:bg-gray-900 dark:text-gray-100">
-            <div className="flex space-x-4">
+            <div className="flex flex-col p-6 space-y-6 overflow-hidden rounded-lg shadow-lg dark:bg-gray-900 dark:text-gray-100"
+            data-aos="fade-right" 
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            
+            >
+            <div className="flex space-x-4 " 
+
+                
+            
+            >
                 <img alt="" src="https://i.ibb.co/wMP0R9q/seore.png" className="object-cover w-12 h-12 rounded-full shadow dark:bg-gray-500" />
                 <div className="flex flex-col space-y-1">
                     <a rel="noopener noreferrer" href="#" className="text-sm font-semibold">Fahad Maruf</a>
@@ -49,7 +69,14 @@ const StudentFeedback = () => {
                 </div>
             </div>
            </div>
-            <div className="flex flex-col p-6 space-y-6 overflow-hidden rounded-lg shadow-lg dark:bg-gray-900 dark:text-gray-100">
+
+            <div className="flex flex-col p-6 space-y-6 overflow-hidden rounded-lg shadow-lg dark:bg-gray-900 dark:text-gray-100"
+            data-aos="fade-left" 
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            
+            >
             <div className="flex space-x-4">
                 <img alt="" src="https://i.ibb.co/WtPxCjw/sami.png" className="object-cover w-12 h-12 rounded-full shadow dark:bg-gray-500" />
                 <div className="flex flex-col space-y-1">
@@ -94,7 +121,14 @@ const StudentFeedback = () => {
                 </div>
             </div>
            </div>
-            <div className="flex flex-col p-6 space-y-6 overflow-hidden rounded-lg shadow-lg dark:bg-gray-900 dark:text-gray-100">
+
+            <div className="flex flex-col p-6 space-y-6 overflow-hidden rounded-lg shadow-lg dark:bg-gray-900 dark:text-gray-100"
+            data-aos="fade-up" 
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            
+            >
             <div className="flex space-x-4">
                 <img alt="" src="https://i.ibb.co/sqGhQFR/seovai.png" className="object-cover w-12 h-12 rounded-full shadow dark:bg-gray-500" />
                 <div className="flex flex-col space-y-1">
@@ -139,7 +173,16 @@ const StudentFeedback = () => {
                 </div>
             </div>
            </div>
-            <div className="flex flex-col p-6 space-y-6 overflow-hidden rounded-lg shadow-lg dark:bg-gray-900 dark:text-gray-100">
+
+            <div className="flex flex-col p-6 space-y-6 overflow-hidden rounded-lg shadow-lg dark:bg-gray-900 dark:text-gray-100"
+            
+            data-aos="fade-down" 
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            
+            
+            >
             <div className="flex space-x-4">
                 <img alt="" src="https://i.ibb.co/hR6hYQ0/moshiur.png" className="object-cover w-12 h-12 rounded-full shadow dark:bg-gray-500" />
                 <div className="flex flex-col space-y-1">

@@ -1,8 +1,19 @@
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const TimeManage = () => {
+    useEffect(()=>{
+        AOS.init({duration:2000,delay:5000})
+    },[])
     return (
-        <div className="">
+        <div className=""
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-center"
+        data-aos-delay="500"
+        data-aos-duration="2000"
+        
+        >
             <div className="w-10/12 mx-auto mb-20 ">
             <div className="">
             <div className="hero min-h-[500px] " style={{backgroundImage: 'url(https://i.ibb.co/XLptQ6b/banner.png)'}}>
