@@ -1,6 +1,7 @@
 import BatchDetails from "./BatchDetails/BatchDetails";
 import Banner from "./Header/Banner/Banner";
 import MarketPlace from "./MarketPlace/MarketPlace";
+import Mentor from "./Mentor/Mentor";
 import MyCourse from "./MyCourse/MyCourse";
 import StudentFeedback from "./StudentFeedback/StudentFeedback";
 import TimeManage from "./TimeManage/TimeManage";
@@ -17,6 +18,7 @@ const Home = () => {
             <MyCourse></MyCourse>
             <StudentFeedback></StudentFeedback>
             <MarketPlace></MarketPlace>
+            <Mentor></Mentor>
             
         </div>
     );
